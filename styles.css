@@ -1,0 +1,198 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .description {
+    font-size: 16px;
+  }
+}
+
+.container {
+  padding: 0;
+}
+
+.card-outer {
+  padding: 2%;
+  margin-left: 2%
+}
+
+@media (max-width: 960px) {
+  .card-outer {
+    padding: 5%;
+    margin-left:0;
+  }
+}
+
+.center {
+  margin: auto 0;
+}
+
+.underlaying-description {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#heading {
+  text-align: center;
+  color: hsl(183, 100%, 15%);
+  margin: 5% 0 0;
+  font-size: 1.5rem;
+  font-family: "Space Mono", sans-serif;
+}
+
+#content {
+  /*margin: 3% 30% 20%;
+  background-color: white;
+  height: 250px;
+  border-radius: 5%; */
+  margin: 2% 20% 20%;
+}
+
+@media (max-width: 960px) {
+  #content {
+    margin: 5% 0;
+  }
+}
+
+.card {
+  --bs-card-border-radius: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-right {
+  background-color: hsl(183, 100%, 15%);
+  padding: 3rem 0;
+  --bs-card-border-radius: 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 960px) {
+  .card-right {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin: 0;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+}
+
+.reset-btn {
+  display: block;
+  background-color: hsl(184, 14%, 56%);
+  color: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 6rem;
+  --bs-btn-hover-color: hsl(183, 100%, 15%);
+  --bs-btn-hover-bg: hsl(185, 41%, 84%);
+  --bs-btn-hover-border-color: hsl(185, 41%, 84%);
+}
+
+@media (max-width: 960px) {
+  .reset-btn {
+    margin-top: 2rem;
+  }
+}
+
+.price {
+  font-size: 3rem;
+  color: hsl(172, 67%, 45%);
+  font-family: "Space Mono", sans-serif;
+  text-align: center;
+}
+
+.percentage-btn {
+  background-color: hsl(183, 100%, 15%);
+  color: sl(189, 41%, 97%);
+  font-size: 20px;
+  padding: 0 auto;
+  width: 100%;
+  margin: 0.5rem 0;
+  --bs-btn-hover-color: hsl(183, 100%, 15%);
+  --bs-btn-hover-bg: hsl(185, 41%, 84%);
+  --bs-btn-hover-border-color: hsl(185, 41%, 84%);
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: hsl(183, 100%, 15%);
+  --bs-btn-active-bg: hsl(185, 41%, 84%);
+  --bs-btn-active-border-color: hsl(185, 41%, 84%);
+}
+
+.form-control {
+  text-align: right;
+  font-size: 20px;
+}
+
+#custom-form {
+  text-align: center;
+}
+
+.input-group {
+  border-radius: 3px;
+}
+
+.input-group:hover {
+  border: solid 2px hsl(172, 67%, 45%) !important;
+}
+
+.input-group-text {
+  background-color: hsl(185, 41%, 84%);
+  border: 0;
+  border-radius: 0;
+}
+
+.form-control {
+  background-color: hsl(185, 41%, 84%);
+  border: 3px;
+  border-radius: 3px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  /* border: solid 1px red !important; */
+  background-color: hsl(185, 41%, 84%);
+}
+
+.red-border {
+  border: solid 2px #be0000 !important;
+}
+
+.zero-red {
+  color: #be0000;
+  text-align: right;
+}
+
+/* .people-input{
+  border-radius: 3px;
+} */
+.input-group {
+  margin: 0.5rem 0;
+}
+
+.topmargin1 {
+  margin-top: 2rem;
+}
+
+.color-dark-grey {
+  color: hsl(186, 14%, 43%);
+}
+
+.color-light-grey {
+  color: hsl(189, 41%, 97%);
+}
