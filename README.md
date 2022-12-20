@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution on Github Pages](https://nathanielfischer.github.io/GitHub-User-Search_Frontend-Mentor/)
+- Solution URL: [Solution on Github Pages](https://nathanielfischer.github.io/Password-Generator_Frontend-Mentor/)
 
 ## My process
 
